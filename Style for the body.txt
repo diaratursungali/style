@@ -1,0 +1,87 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Style for the header */
+header {
+    background-color: #4CAF50;
+}
+
+/* Style for the navigation */
+nav {
+    background-color: #333;
+    display: inline-block;  /* Added as per assignment */
+    width: 80%;  /* Set width to 80% */
+}
+
+/* Style only the image inside nav */
+nav img {
+    width: 10%;  /* Ensure nav images are 10% width */
+}
+
+/* Style for the main content */
+main {
+    background-color: #f4f4f4;
+    font-size: 18px;
+}
+
+/* "Skip to Main Content" link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #fff;
+    padding: 10px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #222;
+    color: white;
+}
+
+/* Commenting out the existing list item styling as required */
+/* li {
+    display: inline-block;
+    width: 150px;
+} */
+
+/* Style for h1 */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+/* Style for paragraphs */
+p {
+    line-height: 1.6;
+}
+
+/* Style for the .grid class */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;  /* Two-column grid */
+    justify-content: center;  /* Adjust alignment */
+    align-items: center;
+    row-gap: 20px;  /* Add spacing */
+}
+
+/* Ensure only images inside .grid are 100% width */
+.grid img {
+    width: 100%;
+}
+
+/* Style for the .flex class */
+.flex {
+    display: flex;
+    flex-wrap: wrap;  /* Allow wrapping */
+    justify-content: space-around;  /* Adjust alignment */
+}
